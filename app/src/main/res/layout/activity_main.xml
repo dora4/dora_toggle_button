@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <site.doramusic.app.widget.DoraToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:dora_checked="true"
+        app:dora_show_indicator="false"/>
+    <site.doramusic.app.widget.DoraToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:dora_shadow_color="@color/gray"
+        app:dora_checked="true"
+        app:dora_checked_color="@color/black"
+        app:dora_button_color="@color/light_gray"
+        app:dora_border_width="1dp"
+        app:dora_show_indicator="false" />
+    <site.doramusic.app.widget.DoraToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        app:dora_checked="true"
+        app:dora_checked_color="@color/yellow"
+        app:dora_border_width="1dp"
+        app:dora_show_indicator="false" />
+    <site.doramusic.app.widget.DoraToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:dora_checked="true"
+        app:dora_uncheck_color="@color/sky_blue"
+        app:dora_background="@color/sky_blue"
+        app:dora_checked_color="@color/pink"
+        app:dora_border_width="3dp"
+        app:dora_show_indicator="false" />
+    <site.doramusic.app.widget.DoraToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:dora_checked="true"
+        app:dora_checked_color="@color/forest_green"
+        app:dora_uncheckcircle_color="@color/black"
+        app:dora_border_width="1dp"
+        app:dora_show_indicator="true" />
+    <site.doramusic.app.widget.DoraToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:dora_checked="true"
+        app:dora_checkline_color="@color/black"
+        app:dora_checked_color="@color/orange_red"
+        app:dora_border_width="1dp"
+        app:dora_show_indicator="true" />
+    <site.doramusic.app.widget.DoraToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:dora_checked="true"
+        app:dora_checked_color="@color/cyan"
+        app:dora_background="@color/light_gray"
+        app:dora_effect_duration="0"
+        app:dora_show_indicator="false" />
+</LinearLayout>
