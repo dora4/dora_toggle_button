@@ -98,7 +98,7 @@ class DoraToggleButton @JvmOverloads constructor(
     private var uncheckCircleColor = 0
 
     /**
-     * 未选择指示器的宽度
+     * 未选择指示器的宽度。
      */
     private var uncheckCircleWidth = 0
 
@@ -113,9 +113,13 @@ class DoraToggleButton @JvmOverloads constructor(
     private var uncheckCircleRadius = 0f
 
     /**
-     * 按钮最小
+     * 按钮可以滑动到的最小的x轴位置。
      */
     private var buttonMinX = 0f
+
+    /**
+     * 按钮可以滑动到的最大的x轴位置。
+     */
     private var buttonMaxX = 0f
     private var buttonPaint = Paint(Paint.ANTI_ALIAS_FLAG)
     private var bgPaint = Paint(Paint.ANTI_ALIAS_FLAG)
