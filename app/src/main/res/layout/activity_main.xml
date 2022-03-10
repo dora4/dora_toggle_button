@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <dora.widget.DoraToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp" />
+
+    <dora.widget.DoraToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:dora_checkLineColor="#D2691E"
+        app:dora_uncheckCircleColor="#D2691E"/>
+
+    <dora.widget.DoraToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:dora_checkLineWidth="1px"
+        app:dora_uncheckCircleWidth="1px" />
+    <dora.widget.DoraToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:dora_enableEffect="false"/>
+    <dora.widget.DoraToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:dora_showIndicator="false"/>
+    <dora.widget.DoraToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:dora_checkedColor="#389CFF"/>
+    <dora.widget.DoraToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:dora_enableShadow="true"
+        app:dora_shadowColor="#DAA520"/>
+</LinearLayout>
