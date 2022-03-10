@@ -153,7 +153,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 按钮的颜色，默认白色。
      */
-    private var buttonColor = 0
+    private var buttonColor = Color.WHITE
 
     /**
      * 拖拽效果的时长。
@@ -626,13 +626,13 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 设置是否启用阴影效果。
      *
-     * @param shadowEffect true代表启用阴影效果
+     * @param enableShadow true代表启用阴影效果
      */
-    fun setShadowEffect(shadowEffect: Boolean) {
-        if (this.enableShadow == shadowEffect) {
+    fun setEnableShadow(enableShadow: Boolean) {
+        if (this.enableShadow == enableShadow) {
             return
         }
-        this.enableShadow = shadowEffect
+        this.enableShadow = enableShadow
         if (this.enableShadow) {
             buttonPaint.setShadowLayer(
                 shadowRadius.toFloat(), 0f, 0f,
